@@ -58,3 +58,10 @@ WORK:
    git checkout <branch_name>  --> switches from current branch to specified branch
 
 6. git pull <origin> <branch_name>  --> pulls the data from the specified branch
+
+
+DELETING A BRANCH:
+------------------
+1. git branch delete <branch_name>  --> deletes a specified branch in local
+
+2. git push origin --delete <branch_name>  --> deletes a specified branch in remote(repo)
